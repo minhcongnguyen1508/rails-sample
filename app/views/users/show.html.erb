@@ -1,13 +1,13 @@
-<h1>Profile</h1>
-<h3>Name </h3>
+<h1>プロフィール</h1>
+<h3>名前</h3>
 <%= @user.name%>
-<h3>Age</h3>
+<h3>年齢</h3>
 <%= @user.age %>
-<h3>Email</h3>
+<h3>メールアドレス</h3>
 <%= @user.email %>
-<h3>Avatar</h3>
+<h3>アバター</h3>
 <p>
-    <% if @user.avatar.attached? %>
-    <%= image_tag @user.avatar %>
-    <% end %>
+<% if @user.avatar.attached? %>
+<%= image_tag @user.avatar %>
+<% end %>
 </p>
